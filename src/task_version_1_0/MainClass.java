@@ -1,3 +1,5 @@
+package task_version_1_0;
+
 public class MainClass {
 
     public static void main(String[] args) {
