@@ -5,20 +5,20 @@ public class Task {
     private String nameTask;
     private String description;
     private int idsTask;
-    private String status = "NEW";
+    private Status status;
 
-    public Task(String nameTask, String description, int idsTask, String status) {
+    public Task(String nameTask, String description, int idsTask) {
         this.nameTask = nameTask;
         this.description = description;
         this.idsTask = idsTask;
-        this.status = status;
+        this.status = Status.NEW;
     }
+
 
     public String getNameTask() {
 
         return nameTask;
     }
-
     public String getDescription() {
 
         return description;
@@ -29,8 +29,7 @@ public class Task {
         return idsTask;
     }
 
-    public String getStatus() {
-
+    public Status getStatus() {
         return status;
     }
 
