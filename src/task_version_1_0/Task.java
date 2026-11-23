@@ -15,18 +15,22 @@ public class Task {
     }
 
     public String getNameTask() {
+
         return nameTask;
     }
 
     public String getDescription() {
+
         return description;
     }
 
     public int getIdsTask() {
+
         return idsTask;
     }
 
     public String getStatus() {
+
         return status;
     }
 
